@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+   
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%; 
+    height: 600px; 
+    background-color: black;
+
+}
+.main
+{
+    width: 50%; height: 400px; background-color: gainsboro; float: left; margin-left: 330px;
+margin-top: 68px; border-radius:75px;
+}
+
+.select_class
+{
+    overflow: auto; outline: none;
+        float: left;
+        margin-left: 97px;
+        margin-top: 38px;
+        /* color: red; */
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-family: monospace;
+        padding-right: 140px;
+}
+
+.time_div
+{
+    width: 50%;
+    height: 100px;
+    /* background-color: aqua; */
+    float: left;
+    margin-top: 37px;
+    margin-left: 204px;
+    font-size: 18px;
+    font-family: cursive;
+}
+    </style>
+    <!-- <link rel="stylesheet" href="../public/css/styles.css"> -->
+    <script src="/../js/main.js"></script>
+</head>
+<body>
+<div class="container" >
+<div class="main" >
+
+    <h3 style="    float: left;
+    margin-left: 273px;">Time Zone</h3>
+  
+    
+        <select class="select_class"  name="time" id="time_id" onchange="showTime()">
+            <option style=" outline: none; border-radius: 15px; ">Select</option>
+            <option  value="Asia/Kolkata">Kolkata      (India)</option>
+           
+            <option  value="America/Los_Angeles">Los Angeles          (U.S.A)</option>
+            <option  value="America/Havana">Havana         (Cuba)</option>
+            <option  value="America/Mexico_City">Mexico_City         (Mexico)</option>
+            <option  value="Africa/Nairobi">Nairobi         (Kenya)</option>
+            <option  value="Europe/Istanbul">Istanbul         (Turkey)</option>
+
+            <option  value="Australia/Sydney">Sydney     (Australia)</option>
+            <option  value="Asia/Kuala_Lumpur">Kuala Lumpur     (Malaysia)</option>
+            <option  value="Asia/Seoul">Seoul     (South Korea)</option>
+            <option  value="Europe/London">London     (U.K)</option>
+            <option  value="Asia/Dubai">Dubai     (United Arab Emirates)</option>
+
+        </select>
+      
+
+
+      <div class="time_div" id="time_id" >
+          <p  id="time_id2"></p>
+      </div>
+
+</div>
+
+</div>
+  
+</body>
+</html>

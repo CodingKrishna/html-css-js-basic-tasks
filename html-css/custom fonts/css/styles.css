@@ -1,0 +1,168 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* importing required fonts */
+
+@font-face
+{
+    font-family: myFontStyles;
+    src: url('../fonts/roboto/RobotoMono-Regular.ttf');
+    font-style: bold;
+}
+
+
+@font-face
+{
+    font-family: mySecondStyle;
+    src: url('../fonts/muli/Muli-Italic.ttf')
+}
+
+
+
+    .main {
+        width: 100%;
+        height: 1300px;
+        background-color: lightgrey;
+        
+    }
+    .first
+    {
+        width: 29%;
+        margin: 1%;
+        padding: 1%;
+        height: 25%;
+      text-align: center;
+        background-color: goldenrod;
+        float: right;
+    
+    }
+    .second
+    {
+        height: 25%;
+       
+        text-align: center;
+      
+        width: 29%;
+        margin: 1%;
+        padding: 1%;
+        background-color: indianred;
+    
+       float: left;
+
+
+    }
+    .third
+    {
+        height: 25%;
+
+       
+        text-align: center;
+      font-family: mySecondStyle;
+   
+       float: right;
+
+       width: 29%;
+        margin: 1%;
+        padding: 1%;
+        background-color: royalblue;
+    
+    }
+    .btn {
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+    outline: none;outline: none;
+}
+.btn-primary
+{
+    background-color: #45bd45;
+    color: white;
+
+}
+.btn-primary:hover{
+    background-color: #18b118;
+    color: black;
+
+}
+
+
+.btn-info
+{
+    background-color: #4ed2fa;
+    color: white;
+
+}
+.btn-info:hover{
+    background-color: #1bb1df;
+    color: black;
+
+}
+.btn-success
+{
+    background-color: #f3c74f;
+    color: white;
+
+}
+.btn-success:hover{
+    background-color: #e0b12d;
+    color: black;
+}
+
+
+
+
+.main2
+{
+    width: 100%;
+    height: 100%;;
+    background-color: azure;
+    position: relative;
+}
+.one
+{
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    height: 30%;
+    background-color: yellow;
+    font-family: myFontStyles;
+}
+
+.two
+{
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    height: 30%;
+    background-color: violet;
+    position: fixed;
+    top: 350px;
+    left: 450px;
+}
+
+.three
+{
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    height: 30%;
+    background-color:  teal;
+    position: absolute;
+    top: 0;
+    left: 900px;
+}
+
+.four{
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    height: 30%;
+    background-color:  rgb(235, 12, 205);
+}
+
+
+    
