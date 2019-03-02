@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple registration form</title>
+  <style type="text/css">
+    
+    
+body
+{
+  background: url(./img/new.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.simple-form
+{
+  left : 20%;
+  text-align: center;
+  margin: 100px 400px;
+  
+}
+
+#regestration
+{
+      border-radius: 142px;
+  width: 75%;
+  background-color: black;
+  opacity: 0.8;
+  padding: 50px 0px;
+}
+
+#button
+{
+  width: 250px;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  outline: 0px;
+      border-radius: 142px;
+}
+
+#ph
+{
+  outline: 0px;
+  width: 74px;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 142px;
+}
+
+#phone
+{
+      border-radius: 142px;
+  width: 200px;
+  padding: 10px;
+ /* border-bottom-left-radius: 5px;*/
+  outline: 0px;
+}
+
+#but2
+{
+  color: white;
+  font-size: 18px;
+}
+.but
+{
+  width: 250px;
+  padding: 10px;
+  border-radius: 25px;
+  outline: 0px;
+  background-color: #0c6;
+  border: 2px solid #1010c;
+  font-size: 18px;
+  cursor: pointer;
+  
+}
+h1
+{
+  color: #fff;
+  font-size: 30 px;
+  
+}
+
+  </style>
+
+</head>
+<body>
+     <div class="simple-form">
+       <form action="/signup" id="regestration">
+       <h1>Sign Up</h1>
+       
+       <input type="text" name="fst" id="button" placeholder="Enter First Name"/><br><br>
+       <input type="text" name="lst" id="button" placeholder="Enter Last Name"/><br><br>
+       <input type="email" name="email" id="button" placeholder="Enter E-mail Id"/><br><br>
+       <input type="password" name="pass" id="button" placeholder="Enter Password"/><br><br>
+       <input type="password" name="pass" id="button" placeholder="Re-Enter Password"/><br><br>
+       
+       <select id="ph"><option>+91</option><option>+92</option><option>+55</option><option>+99</option><option>+42</option>
+      </select>
+        <input type="number" name="num" placeholder="Enter Your Mobile Number" id="phone"/><br><br>
+         <input type="radio" name="gender" id="butt">&emsp;&emsp;<span id="but2">Male</span>&emsp;&emsp;<input type="radio" name="gender"
+         id="butt">&emsp;&emsp;<span id="but2">FeMale</span><br><br>
+         <a href="./index.html"><button class="but">Register</button></a>
+       </form>
+     
+     </div>
+
+</body>
+</html>

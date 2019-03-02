@@ -1,0 +1,17 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "3.5.1",
+    "express-myconnection": "1.0.4",
+    "indian-cities-database": "^1.0.5",
+    "jade": "*",
+    "moment-timezone": "^0.5.23",
+    "mysql": "2.2.0"
+  }
+}

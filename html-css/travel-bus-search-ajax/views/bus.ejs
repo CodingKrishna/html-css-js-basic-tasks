@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%=page_title%>></title>
+<link rel="stylesheet" href="/../css/style.css">
+<script src="/../js/main.js"></script>
+
+</head>
+<body>
+    
+
+     <div class="container">
+            <div class="main">
+
+                    <img src="/../img/redbus2.jpg" alt="bus_img"  >
+                 <form action="#" class="form_input">
+
+                    <input id="from" title="From" class="inner_input" type="text" placeholder="From" onkeyup="searchFrom()" onkeydown="removeFrom()">
+                    <input id="to" title="To" class="inner_input2" type="text" placeholder="To" onkeyup="searchTo()" onkeydown="removeTo()" >
+                           <input class="sub_input" title="Let's Go" type="submit" onclick="searchBus()" value="Search">
+  
+
+                 </form>
+                 <div id="div_from" class="div_form1">
+                        
+                    </div>
+                    <div id="div_to" class="div_form2">
+                        
+              </div>
+
+                   <!-- <p class="city_class" id="city_id"></p> -->
+
+
+
+
+            </div>
+     </div>
+
+</body>
+</html>
